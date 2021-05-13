@@ -7,6 +7,7 @@ type ButtonProps = {
     alignSelf?: string
     children: React.ReactNode
     primary?: boolean
+    onClick(): void
 }
 
 const opacityAnimation = keyframes`
